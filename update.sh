@@ -13,9 +13,9 @@ docker build -t delore23/api-zap-alphaville:latest .
 echo "docker rm"
 docker container rm whatsapp-api-nodejs_apizapalphaville_1
 
-echo "go to whatsapp-api-nodejs"
+echo "go to delore-erp-srv"
 cd
-cd whatsapp-api-nodejs/
+cd delore-erp-srv/
 
 echo "restart docker compose"
 docker-compose up -d
