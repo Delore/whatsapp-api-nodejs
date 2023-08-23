@@ -8,6 +8,6 @@ npm version patch
 PACKAGE_VERSION=$(grep '"version":' package.json | cut -d\" -f4)
 echo "Nova Versão: " $PACKAGE_VERSION
 
-git push origin master
+git push origin master -f
 
 echo "Finished :)"
