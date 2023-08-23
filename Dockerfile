@@ -15,6 +15,8 @@ WORKDIR ${_WORKDIR}
 ADD . ${_WORKDIR}
 RUN yarn install
 
+COPY package.json yarn.lock .env ./
+
 USER node
 EXPOSE ${PORT}
 
