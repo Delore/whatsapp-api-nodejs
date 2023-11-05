@@ -17,7 +17,9 @@ RUN yarn install
 
 COPY package.json yarn.lock .env ./
 
+
 USER node
 EXPOSE ${PORT}
+
 
 CMD yarn start

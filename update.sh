@@ -20,4 +20,5 @@ cd delore-erp-srv/
 echo "restart docker compose"
 docker-compose up -d
 
+
 echo "fim :)"
