@@ -1,6 +1,6 @@
 {
     "name": "whatsapp-api-nodejs",
-    "version": "3.0.22",
+    "version": "3.0.23",
     "description": "whatsapp-api-nodejs is builton top of Baileys-MD.",
     "main": "server.js",
     "scripts": {
