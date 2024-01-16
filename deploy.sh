@@ -10,5 +10,4 @@ echo "Nova Versão: " $PACKAGE_VERSION
 
 git push
 
-
 echo "Finished :)"
